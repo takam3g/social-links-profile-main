@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondary-offgrey
+}
+
+.btn {
+  @apply text-center py-3 w-64 bg-secondary-grey text-xs font-bold rounded hover:bg-primary hover:text-secondary-grey transition ease-out duration-500;
+}
